@@ -2,6 +2,7 @@ import React from 'react';
 import {Card} from 'react-bootstrap';
 
 
+
 const a = (props) => {
     return (
         <div>
@@ -21,6 +22,6 @@ const a = (props) => {
   
 
         </div>
-    )
-}
+    );
+};
 export default a;
