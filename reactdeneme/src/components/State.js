@@ -32,6 +32,18 @@ const State = () => {
         setmyNewState(0)
 
     }
+    const Division = () => {
+        if (myState /2 === 1 ){
+                setMyState(1)
+        }else if(myState /2 === 0){
+            setMyState(0)
+        }else {
+
+        }
+        console.log(myState);
+    }
+
+
 
 
     return (
@@ -42,6 +54,7 @@ const State = () => {
             <PropsSibling btn={btn} />
             <NewProps x={myState} y={myNewState} setMyState={setmyNewState} setBtn={setBtn} btn={btn} />
             <button onClick={reset}>Reset</button>
+            <button onClick={Division}>bölüm</button>
 
         </div>
     );
